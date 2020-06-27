@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
 import './App.css';
+import Person from './Person/Person';
 
 class App extends Component {
   render() {
-    /* return (
+    return (
       <div className="App">
-        <h1>Hola, esto es un H1 desde React</h1>
+        <h1>React App</h1>
+        <p>App component</p>
+        <Person name="Uriel" age="24"/>
+        <Person name="Claudio" age="27"> Ingeniería Industrial </Person>
+        <Person name="Wendy" age="22"/>
       </div>
-    ); */
-
-    return React.createElement("div", {className: 'App'}, React.createElement("h1", null, "Forma larga de componente :c"));
-
+    );
   }
 }
 
