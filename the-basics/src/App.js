@@ -9,7 +9,8 @@ class App extends Component {
       {name: 'Uriel', age: 24},
       {name: 'Claudio', age: 27},
       {name: 'Wendy', age: 22}
-    ]
+    ],
+    otraPropiedad: "Otro valor"
   };
 
 
